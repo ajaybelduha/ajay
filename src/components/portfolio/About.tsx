@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Code2, Server, Cloud, Users } from "lucide-react";
-
+import LazyImage from "@/components/ui/LazyImage";
 import AjayImage from "@/assets/images/Ajay-Kumar.jpeg"
 
 export default function About() {
@@ -65,7 +65,7 @@ export default function About() {
                 {/* Image container */}
                 <div className="relative p-1 rounded-3xl bg-gradient-to-br from-blue-500/30 to-indigo-500/30">
                   <div className="relative overflow-hidden rounded-3xl">
-                    <img
+                    <LazyImage
                       src={AjayImage}
                       alt="Ajay Kumar"
                       className="w-full h-auto"

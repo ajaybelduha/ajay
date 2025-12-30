@@ -1,6 +1,6 @@
 import { Heart, Linkedin, Mail, Phone, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
-
+import LazyImage from '@/components/ui/LazyImage';
 import AjayImage from "@/assets/images/Ajay-Kumar.jpeg"
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
           >
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-blue-400/40 shadow-lg">
-                <img 
+                <LazyImage 
                   src={AjayImage}
                   alt="Ajay Kumar"
                   className="w-full h-full object-cover"

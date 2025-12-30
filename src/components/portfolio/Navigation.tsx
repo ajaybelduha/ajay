@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import HireButton from "./HireButton";
+import LazyImage from "@/components/ui/LazyImage";
 
 import AjayImage from "@/assets/images/Ajay-Kumar.jpeg"
 
@@ -95,10 +96,11 @@ export default function Navigation() {
               />
               <div className="relative w-full h-full p-0.5 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full">
                 <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/40">
-                  <img
+                  <LazyImage
                     src={AjayImage}
                     alt="Ajay Kumar"
                     className="w-full h-full object-cover"
+                    priority
                   />
                 </div>
               </div>

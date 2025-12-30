@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Linkedin, ChevronDown } from 'lucide-react';
+import LazyImage from '@/components/ui/LazyImage';
 import AjayImage from "@/assets/images/Ajay-FullStack.jpeg"
 
 export default function Hero() {
@@ -170,10 +171,11 @@ export default function Hero() {
             {/* Image container with glassmorphism */}
             <div className="relative z-10 p-1 rounded-3xl bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-xl border border-white/30 shadow-2xl">
               <div className="relative w-80 h-80 rounded-3xl overflow-hidden bg-slate-900/50">
-                <img 
+                <LazyImage 
                   src={AjayImage}
                   alt="Ajay Kumar - Full Stack Developer"
                   className="w-full h-full object-cover"
+                  priority
                 />
                 {/* Glossy overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent" aria-hidden="true" />

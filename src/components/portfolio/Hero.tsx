@@ -185,7 +185,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.8 }}
-              className="absolute -bottom-6 -right-6 px-6 py-3 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl"
+              className="absolute z-11 -bottom-6 right-6 px-8 py-3 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl"
             >
               <div className="text-center">
                 <div className="text-3xl font-bold text-white">6.5+</div>

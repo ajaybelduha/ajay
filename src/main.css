@@ -3,3 +3,8 @@
 /* @tailwind utilities; */
 
 @import "tailwindcss";
+
+::selection {
+  @apply bg-indigo-500/50;
+  @apply text-white;
+}

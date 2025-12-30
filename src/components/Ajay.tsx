@@ -9,10 +9,6 @@ import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
 
 export default function Ajay() {
-  useEffect(() => {
-    // Set page title for accessibility
-    document.title = "Ajay Kumar - Sr. Full Stack Developer | MERN | Node.js | React.js | Microservices | Micro-frontend | AWS Cloud | Accessibility";
-  }, []);
 
   return (
     <div className="min-h-screen bg-white">

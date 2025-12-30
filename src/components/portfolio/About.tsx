@@ -2,6 +2,8 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Code2, Server, Cloud, Users } from "lucide-react";
 
+import AjayImage from "@/assets/images/Ajay-Kumar.jpeg"
+
 export default function About() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -64,7 +66,7 @@ export default function About() {
                 <div className="relative p-1 rounded-3xl bg-gradient-to-br from-blue-500/30 to-indigo-500/30">
                   <div className="relative overflow-hidden rounded-3xl">
                     <img
-                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69528e15c6d926a4a15321e8/e07657ec3_WhatsAppImage2025-12-29at75812PM1.jpg"
+                      src={AjayImage}
                       alt="Ajay Kumar"
                       className="w-full h-auto"
                     />

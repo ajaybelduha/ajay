@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Navigation from "@/components/portfolio/Navigation";
 import Hero from "@/components/portfolio/Hero";
 import About from "@/components/portfolio/About";
@@ -9,7 +8,6 @@ import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
 
 export default function Ajay() {
-
   return (
     <div className="min-h-screen bg-white">
       {/* Skip to main content link for accessibility */}

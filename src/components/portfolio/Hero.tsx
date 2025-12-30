@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Linkedin, ChevronDown } from 'lucide-react';
-// import { Button } from '@/components/ui/button';
+import AjayImage from "@/assets/images/Ajay-FullStack.jpeg"
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -171,7 +171,7 @@ export default function Hero() {
             <div className="relative z-10 p-1 rounded-3xl bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-xl border border-white/30 shadow-2xl">
               <div className="relative w-80 h-80 rounded-3xl overflow-hidden bg-slate-900/50">
                 <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69528e15c6d926a4a15321e8/4b368b5f0_WhatsAppImage2025-12-29at75811PM.jpg"
+                  src={AjayImage}
                   alt="Ajay Kumar - Full Stack Developer"
                   className="w-full h-full object-cover"
                 />

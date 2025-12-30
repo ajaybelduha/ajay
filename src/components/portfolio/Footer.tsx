@@ -1,6 +1,8 @@
 import { Heart, Linkedin, Mail, Phone, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import AjayImage from "@/assets/images/Ajay-Kumar.jpeg"
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -25,7 +27,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-blue-400/40 shadow-lg">
                 <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69528e15c6d926a4a15321e8/e07657ec3_WhatsAppImage2025-12-29at75812PM1.jpg"
+                  src={AjayImage}
                   alt="Ajay Kumar"
                   className="w-full h-full object-cover"
                 />

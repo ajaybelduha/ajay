@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ajaybelduha.github.io/ajay/sitemap.xml

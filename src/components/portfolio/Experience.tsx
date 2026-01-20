@@ -54,7 +54,7 @@ export default function Experience() {
       ],
     },
     {
-      company: "Brrownz Group",
+      company: "Barrownz Group",
       location: "Lucknow",
       role: "Software Developer",
       period: "Feb 2019 – Nov 2020",
